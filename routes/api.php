@@ -51,6 +51,19 @@ Route::group(['middleware' => ['auth:api']], function () {
 });
 
 
+Route::group(['middleware' => 'cors', 'prefix' => '/v1'], function () {
+    Route::post('/login', 'UserController@authenticate');
+    Route::post('/register', 'UserController@register');
+    Route::get('/logout/{api_token}', 'UserController@logout');
+
+    Route::get('/cities', 'CitiesController@index');
+    Route::get('/cities/{id}', 'CitiesController@show');
+    Route::post('/cities/save', 'CitiesController@store');
+    Route::post('/cities/update', 'CitiesController@update');
+    Route::get('/cities/delete/{id}/{api_token}', 'CitiesController@delete');
+});
+
+
 
 
 
