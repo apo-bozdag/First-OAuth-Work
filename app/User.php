@@ -33,5 +33,8 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+    public function cities(){
+        return $this->hasMany('App\Cities');
+    }
 
 }
