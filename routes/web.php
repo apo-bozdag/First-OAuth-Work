@@ -25,5 +25,6 @@ Route::group(['prefix' => 'admin', 'middleware' => ['admin'], 'namespace' => 'Ad
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/face', 'HomeController@face')->name('face');
 
 

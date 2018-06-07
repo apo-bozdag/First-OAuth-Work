@@ -166,6 +166,7 @@ return [
         Barryvdh\Elfinder\ElfinderServiceProvider::class,
         Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
         Barryvdh\Cors\ServiceProvider::class,
+        Softon\LaravelFaceDetect\FaceDetectServiceProvider::class,
 
 
     ],
@@ -218,6 +219,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
         'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class,
+        'FaceDetect' => Softon\LaravelFaceDetect\Facades\FaceDetect::class,
 
     ],
 
