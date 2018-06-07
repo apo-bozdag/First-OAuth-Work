@@ -21,6 +21,7 @@
         "laravel/framework": "5.6.*",
         "laravel/passport": "^6.0",
         "laravel/tinker": "^1.0",
+        "softon/laravel-face-detect": "^0.1.0",
         "tymon/jwt-auth": "^0.5.12"
     },
     "require-dev": {

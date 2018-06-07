@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f0f088112fabd215e9f94cd6fb4d641d",
+    "content-hash": "ed833d028b895cf8adf7922ec48ddc56",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -3892,6 +3892,47 @@
                 "uuid"
             ],
             "time": "2018-01-20T00:28:24+00:00"
+        },
+        {
+            "name": "softon/laravel-face-detect",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/softon/laravel-face-detect.git",
+                "reference": "cd4be9a1c1a397a39706bc68ff4e822e949ba712"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/softon/laravel-face-detect/zipball/cd4be9a1c1a397a39706bc68ff4e822e949ba712",
+                "reference": "cd4be9a1c1a397a39706bc68ff4e822e949ba712",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0|~6.0",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Softon\\LaravelFaceDetect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Shiburaj",
+                    "email": "powerupneo@gmail.com"
+                }
+            ],
+            "description": "A Laravel Package for Face Detection and Cropping in Images.",
+            "keywords": [
+                "face detection",
+                "laravel"
+            ],
+            "time": "2016-05-09T07:52:01+00:00"
         },
         {
             "name": "spatie/db-dumper",
